@@ -16,4 +16,5 @@
 
 <resources>
     <string name="content_text">To jest dynamiczna funkcja napisana w \nKotlinie\n, która może być załadowana na żądanie.</string>
+    <string name="accent_color_label">To jest \"colorAccent\".</string>
 </resources>
