@@ -33,10 +33,14 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!--- Feature-specific code, would be nice to not have it at all in the app module -->
+    <attr name="customColorAttribute" format="color"/>
+
     <!-- Without this empty style the "Android resource linking failed" happens when building -->
     <style name="Custom.AppTheme" parent="Theme.MaterialComponents.NoActionBar">
-        <!-- The color assigned to the colorAccent here is used when the app comes form the Google Play-->
+        <!-- These colors are used when the app comes form the Google Play-->
         <item name="colorAccent">#80FF00</item>
+        <item name="customColorAttribute">#9C27B0</item>
     </style>
 
 </resources>
