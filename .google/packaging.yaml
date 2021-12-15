@@ -6,7 +6,7 @@
 status:       DRAFT
 technologies: [Android]
 categories:   [Dynamic Apps]
-languages:    [Kotlin, Java, Native]
+languages:    [Kotlin, Java]
 solutions:    [Mobile]
 
 github:       googlesamples/android-dynamic-features

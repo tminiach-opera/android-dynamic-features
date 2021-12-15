@@ -17,7 +17,4 @@
 include ':app',
         ':features:java',
         ':features:kotlin',
-        ':features:assets',
-        ':features:native',
-        ':instant:split',
-        ':instant:url'
+        ':features:assets'
