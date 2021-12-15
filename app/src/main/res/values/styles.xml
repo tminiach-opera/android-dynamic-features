@@ -33,4 +33,7 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!-- Without this empty style the "Android resource linking failed" happens when building -->
+    <style name="Custom.AppTheme" parent="Theme.MaterialComponents.NoActionBar" />
+
 </resources>
