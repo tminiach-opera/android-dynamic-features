@@ -1,9 +1,12 @@
 <resources>
 
+    <attr name="customColorAttribute" format="color"/>
+
     <style name="Custom.AppTheme" parent="Theme.MaterialComponents.NoActionBar">
         <!-- The color assigned to the colorAccent here is used when build locally but not when the
         build comes from the Google Play (.aab)-->
         <item name="colorAccent">#FF9800</item>
+        <item name="customColorAttribute">#B30000</item>
     </style>
 
 </resources>

@@ -17,4 +17,5 @@
 <resources>
     <string name="content_text">This is a dynamic feature, written in \nKotlin\n which can be loaded on demand.</string>
     <string name="accent_color_label">This is the \"colorAccent\".</string>
+    <string name="custom_color_label" translatable="false">This is the \"custom attribute\" color.</string>
 </resources>
